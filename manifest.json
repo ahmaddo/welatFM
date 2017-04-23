@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Welat FM",
+  "description": "Chrome Extension for radio WelatFM",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "media/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Livestream welatFM"
+  },
+
+  "icons": {
+    "16": "media/icon.png",
+    "48": "media/icon.png",
+    "128": "media/icon.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "http://www.welat-press.com/*" ,
+    "webNavigation",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+
+  "author": "Ahmad@welat-press.com"
+}

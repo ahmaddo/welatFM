@@ -1,0 +1,71 @@
+html, body {
+    font-size: .9em;
+    font-family: 'Open Sans', sans-serif;
+}
+#container {
+    margin: 0;
+}
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+.dasLogo {
+    max-width: 350px;
+}
+
+audio {
+    width: 100%;
+}
+
+ul {
+    direction: rtl;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: #666;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a {
+    -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition:         all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+ul#nav-bar li {
+    display: inline;
+    border-left: solid 1px gray;
+}
+
+ul#nav-bar {
+    background-color:rgba(59, 183, 119, 0.3);
+}
+
+#postsList {
+    padding-right:0;
+}
+
+#postsList li {
+    background-color: rgba(87, 87, 87, 0.18);
+    margin-bottom: 5px;
+    padding: 2px 0;
+}
+
+#postsList li:hover {
+    background-color: rgb(197, 234, 214);
+}
+
+
