@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Welat FM",
+  "name": "Radio Welat FM",
+  "short_name": "Welat FM",
   "description": "Chrome Extension for radio WelatFM",
   "version": "1.0",
 
