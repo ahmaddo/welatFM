@@ -19,7 +19,9 @@
 
   "permissions": [
     "tabs",
+    "http://www.google.com/",
     "http://www.welat-press.com/*" ,
+    "http://www.welat.fm/" ,
     "webNavigation",
     "activeTab",
     "https://ajax.googleapis.com/"

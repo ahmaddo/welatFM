@@ -29,7 +29,6 @@
 
             var xhr = new XMLHttpRequest();
             xhr.open("GET", url, true);
-            xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4) {
                     vm.response = JSON.parse(xhr.responseText);
