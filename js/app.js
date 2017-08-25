@@ -25,7 +25,7 @@
         }
 
         function getResponse() {
-            var url = 'http://www.welat-press.com/fm/wp-json/wp/v2/posts?orderby=date&per_page=20';
+            var url = 'http://www.welat.fm/wp-json/wp/v2/posts?orderby=date&per_page=20';
 
             var xhr = new XMLHttpRequest();
             xhr.open("GET", url, true);
