@@ -31,6 +31,7 @@
             xhr.open("GET", url, true);
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4) {
+                    $('#loader').hide();
                     vm.response = JSON.parse(xhr.responseText);
                 }
             };

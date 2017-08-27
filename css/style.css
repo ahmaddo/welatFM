@@ -68,4 +68,7 @@ ul#nav-bar {
     background-color: rgb(197, 234, 214);
 }
 
-
+#loader {
+    width:100%;
+    text-align: center;
+}

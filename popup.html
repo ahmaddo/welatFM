@@ -27,17 +27,20 @@
             <a href="http://www.welat.fm" target="_blank"> موقع ولات</a>
         </li>
     </ul>
-
-        <ul id="postsList">
-            <li id="{{ 'id' + post.id }}" ng-repeat="(ObjKey, post) in vm.response" >
-                <a href="{{ post.link }}" target="_blank" id="{{ 'href' + post.id }}">
-                    {{ vm.innerHTML('href' + post.id, 'title', ObjKey) }}
-                </a>
-                <div id="{{ 'content' + post.id }}" class="content" ng-show="vm.currentPost == 'id' + post.id">
-                    {{ vm.innerHTML('content' + post.id , 'content', ObjKey) }}
-                </div>
-            </li>
-        </ul>
+    <div id="loader">
+        <p>الرجاء الإنتظار ...</p>
+        <img src="media/loader.svg" alt="">
+    </div>
+    <ul id="postsList">
+        <li id="{{ 'id' + post.id }}" ng-repeat="(ObjKey, post) in vm.response" >
+            <a href="{{ post.link }}" target="_blank" id="{{ 'href' + post.id }}">
+                {{ vm.innerHTML('href' + post.id, 'title', ObjKey) }}
+            </a>
+            <div id="{{ 'content' + post.id }}" class="content" ng-show="vm.currentPost == 'id' + post.id">
+                {{ vm.innerHTML('content' + post.id , 'content', ObjKey) }}
+            </div>
+        </li>
+    </ul>
 </div>
 </body>
 </html>
