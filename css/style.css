@@ -14,7 +14,7 @@ audio::-webkit-media-controls-enclosure {
 }
 
 audio::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
+    width: calc(93% + 30px); /* Adjust as needed */
 }
 
 .dasLogo {
