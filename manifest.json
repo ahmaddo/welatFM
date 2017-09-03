@@ -4,7 +4,7 @@
   "name": "Radio Welat FM",
   "short_name": "Welat FM",
   "description": "Chrome Extension for radio WelatFM",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
 
   "browser_action": {
